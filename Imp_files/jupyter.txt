@@ -1,0 +1,6 @@
+Jupyter notebook from anaconda description opens the notebook in default folder.
+
+To open jupyter notebook in other folders, you need to modify config file.
+
+Please refer this for configuration 
+https://youtu.be/4aPcjXAZlnA?si=538rw3qz2roEmrPL

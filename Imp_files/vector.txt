@@ -1,0 +1,15 @@
+1. Quantities thar are described using magitude and direction are called vector quantities and quantities that are described by only their
+   magnitude are called scalar quantities.
+
+2. Mathematically, a quantity that has both magnitude and direction is called vector 
+
+3. Example for scalar quantities -> Speed , Distance ,Temperature which can entirely be measured by numerical values.
+
+4. Example for vector quantitiy -> Velocity. Ex: 30km/hr towards north.
+
+5. Refer this for basic understanding of vectors -> https://youtu.be/wAs1TIiF7A0?si=oVHFw4SvcgVzeXtq
+
+6. To understand the dot products of vector concept ->
+   https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length
+
+
