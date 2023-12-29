@@ -1,0 +1,4 @@
+Refer this for numpy :  https://jovian.ml/aakashns/python-numerical-computing-with-numpy
+
+You can learn about matrices and matrix multiplication by watching the first 3-4 videos of this playlist:
+ https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0&index=1 .
