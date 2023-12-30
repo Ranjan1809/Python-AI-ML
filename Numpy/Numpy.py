@@ -3,6 +3,9 @@ import numpy as np
 kanto = np.array([73, 67, 43])
 weights = np.array([0.3, 0.2, 0.5])
 
+print(kanto.shape, weights.shape)
+
+print(np.matmul(kanto, weights))
 # displays [73 67 43] <class 'numpy.ndarray'>
 print(kanto, type(kanto))
 
