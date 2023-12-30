@@ -5,7 +5,7 @@
 
 3. Example for scalar quantities -> Speed , Distance ,Temperature which can entirely be measured by numerical values.
 
-4. Example for vector quantitiy -> Velocity. Ex: 30km/hr towards north.
+4. Example for vector quantity -> Velocity. Ex: 30km/hr towards north.
 
 5. Refer this for basic understanding of vectors -> https://youtu.be/wAs1TIiF7A0?si=oVHFw4SvcgVzeXtq
 

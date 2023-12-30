@@ -12,10 +12,8 @@ arr2 = np.ones([2, 2, 3])
 print(arr2)
 
 # Identity matrix
-identity_matrix = np.eye(3)
+identity_matrix = np.eye(5)
 print(identity_matrix)
-
-# Fixed value
 
 # Fixed value
 fixed_arr = np.full([2, 3], 42)
@@ -34,5 +32,5 @@ print(range_arr.reshape(9, 1, 3))
 
 # Equally spaced numbers in a range
 # This method will give specified number of digits between specified range
-# For ex:, in this example, it gives 50 equally spaced numbers between 10-100
+# For ex:, in this example, it gives 20 equally spaced numbers between 10-100
 print(np.linspace(10, 100, 20))
