@@ -20,3 +20,12 @@ numerical columns (mean, standard deviation, minimum/maximum values, and the num
 `.describe` method.'''
 
 print(covid_df.describe())
+
+# displays names of the columns in dataframe
+# displays Index(['date', 'new_cases', 'new_deaths', 'new_tests'], dtype='object')
+print(covid_df.columns)
+
+# gives number of rows and columns as tuples
+# displays (248, 4)
+print(covid_df.shape)
+
