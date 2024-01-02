@@ -16,11 +16,18 @@ print(covid_df[high_new_cases])
 # or
 print(covid_df[covid_df['new_cases'] > 1000])
 
-positive_rate = 0.05206657403227681
+# positive_rate = 0.05206657403227681
 
 '''We can also formulate more complex queries that involve multiple columns. As an example, let's try to determine 
 the days when the ratio of cases reported to tests conducted is higher than the overall positive_rate'''
 
+# We can also add new column using below code
+covid_df['positive_rate'] = covid_df.new_cases / covid_df.new_tests
+print(covid_df)
 
+# You can also remove column if not required
+covid_df.drop(columns="positive_rate")
+
+print(covid_df)
 
 
