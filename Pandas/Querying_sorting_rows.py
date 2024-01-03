@@ -26,8 +26,22 @@ covid_df['positive_rate'] = covid_df.new_cases / covid_df.new_tests
 print(covid_df)
 
 # You can also remove column if not required
-covid_df.drop(columns="positive_rate")
+# if you use inplace = true , it modifies the original df and returns none
+# if you use inplace = false (default) , it returns a new df which is modified but doesn't effect the old df
+c = covid_df.drop(columns="positive_rate")
 
 print(covid_df)
+print(c)
 
+covid_df.drop(columns="positive_rate", inplace=True)
+print(covid_df)
+
+# sorting
+print(covid_df.sort_values('new_deaths', ascending=False).head(10))
+print(covid_df.sort_values('new_cases').head(10))
+
+# we need to modify negative value -148.0 for new_cases sort
+# .at method can be used for modification
+covid_df.at[172, 'new_cases'] = (covid_df.at[171, 'new_cases'] + covid_df.at[173, 'new_cases'])/2
+print(covid_df.sort_values('new_cases').head(10))
 
