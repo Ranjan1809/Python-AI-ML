@@ -29,3 +29,9 @@ covid_df_may_metrics = covid_df_may[['new_cases', 'new_deaths', 'new_tests']]
 # Get the column-wise sum
 covid_may_totals = covid_df_may_metrics.sum()
 print(covid_may_totals)
+
+# Overall average
+covid_df.new_cases.mean()
+
+# Average for Sundays
+covid_df[covid_df.weekday == 6].new_cases.mean()
