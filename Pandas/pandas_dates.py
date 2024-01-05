@@ -35,3 +35,5 @@ covid_df.new_cases.mean()
 
 # Average for Sundays
 covid_df[covid_df.weekday == 6].new_cases.mean()
+
+print("Practice session")
