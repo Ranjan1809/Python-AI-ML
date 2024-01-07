@@ -1,0 +1,4 @@
+Watch this youtube video for Numpy, Pandas and Matplotlib
+
+https://youtu.be/GPVsHOlRBBI?si=_Z1SjK02gM5M8f87
+
